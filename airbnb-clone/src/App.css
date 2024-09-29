@@ -4,6 +4,7 @@
 }
 body{
   margin:0;
+  font-family: "Poppins",sans-serif;
 }
 nav{
   height:70px;
@@ -13,4 +14,21 @@ nav{
 }
 .nav--logo{
   max-width: 100px; /* because in some os the logo tend to stretch to full width therefore to restrict that from not happening */ 
+}
+section{
+  padding:20px;
+}
+.hero{
+  display:flex;
+  flex-direction: column;
+}
+.hero--photo{
+  max-width: 400px;
+    align-self: center;
+}
+.hero--header{
+  margin-bottom:center;
+}
+.hero--text{
+  margin-top:0;
 }
