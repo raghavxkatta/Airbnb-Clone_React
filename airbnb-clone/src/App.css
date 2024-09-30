@@ -49,6 +49,10 @@ h2{
 .bold{
   font-weight: bold;
 }
+h2{
+  font-size:0.75rem;/* 0.75 rem= 12px */
+  font-weight:normal
+}
 .card--star{
   height:14px;
 }
