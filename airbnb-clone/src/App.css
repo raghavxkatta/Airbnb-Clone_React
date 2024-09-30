@@ -32,3 +32,17 @@ section{
 .hero--text{
   margin-top:0;
 }
+.card{
+  width:175px;
+  font-size:12px;
+}
+.card--image{
+  width:100%;
+  border-radius:9px;
+}
+.gray{
+  color:#918E9B;
+}
+.bold{
+  font-weight: bold;
+}
