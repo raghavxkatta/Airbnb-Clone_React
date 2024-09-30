@@ -36,6 +36,9 @@ section{
   width:175px;
   font-size:12px;
 }
+h2{
+  font-size:12px;
+}
 .card--image{
   width:100%;
   border-radius:9px;
@@ -45,4 +48,7 @@ section{
 }
 .bold{
   font-weight: bold;
+}
+.card--star{
+  height:14px;
 }

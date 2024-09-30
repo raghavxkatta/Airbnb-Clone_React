@@ -2,13 +2,15 @@ import React from "react"
 import Katie from "../assets/katie.png"
 import Star from "../assets/Star.png"
 export default function Card(){
+    return(
     <div className="card">
 <img src={Katie} alt="Katie" className="card--image"/>
 <div className="card--stats">
-<img src={Star} alt="Star" className="Star"/>
+<img src={Star} alt="Star" className="card--star"/>
 <span className="gray">5.0(6) • USA</span>
 </div>
-<p className="star--text2">Life lessons with Katie Zaferes</p>
+<h2>Life lessons with Katie Zaferes</h2>
 <p><span className="bold">From $136</span>/ person</p>
     </div>
+    )
 }
