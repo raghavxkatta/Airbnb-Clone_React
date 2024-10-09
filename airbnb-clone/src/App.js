@@ -1,7 +1,7 @@
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Card from './assets/Card';
+import Card from './components/Card';
 import data  from './data'; 
 console.log(data  )
 function App() {
