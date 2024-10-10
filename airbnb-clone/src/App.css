@@ -38,6 +38,7 @@ section{
   display: flex;
 flex-direction: column;
 flex: 0 0 auto;
+position:relative;
 }
 .cards--list{
   display: flex;
@@ -76,4 +77,13 @@ h2{
 }
 .card--star{
   height:14px;
+}
+.card--badge{
+  position:absolute;
+  top:6px;
+  left:6px;
+  background-color: white;
+  padding:5px 7px;
+  border-radius: 2px;
+  font-weight:bold;
 }
