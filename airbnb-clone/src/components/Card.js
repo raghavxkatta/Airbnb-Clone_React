@@ -1,6 +1,7 @@
 import React from "react"
 import Star from "../assets/star.png"
 export default function Card(props){
+    /* so we'll have sold out on anything that is sold out, even if it's online experience it will prefer sold out first because that's our first condition and then if it does have open spots and it's online then it shows online badge and if it's neither it shows no badge at all */
     let badgeText
     if(props.openSpots===0){
         badgeText="SOLD OUT"
